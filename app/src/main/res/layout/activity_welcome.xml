@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/VLinearFill"
+                android:background="@drawable/welcome">
+
+    <TextView
+            android:id="@+id/icon"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:background="@drawable/otter_hd_white"
+            android:visibility="visible"
+            android:layout_marginBottom="@dimen/spacing_20"
+            android:layout_centerInParent="true"/>
+
+    <TextView
+            android:id="@+id/slogan"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/icon"
+            android:text="@string/welcome_slogan"
+            android:textSize="@dimen/txt_44"
+            android:textColor="@color/white"
+            style="@style/Wrap"/>
+</RelativeLayout>

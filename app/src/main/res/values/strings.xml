@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">水獭</string>
+
+    <!-- pullToRefresh -->
+    <string name="refresh_finished">刷新完成</string>
+    <string name="pull_to_down_refresh">下拉刷新</string>
+    <string name="pull_to_up_refresh">上拉刷新</string>
+    <string name="release_to_refresh">释放刷新</string>
+    <string name="loading">正在刷新</string>
+
+    <!-- Welcome Activty -->
+    <string name="welcome">水獭</string>
+    <string name="welcome_slogan">我是水獭，我不赖!</string>
+
+    <!-- Home Activity -->
+    <string name="home_title">众筹</string>
+    <string name="creator">发起人 .</string>
+
+    <!-- login activity -->
+
+
+    <!-- register activity -->
+
+
+    <!-- main activity -->
+
+
+</resources>

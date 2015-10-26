@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:paddingLeft="@dimen/spacing_10"
+              android:paddingRight="@dimen/spacing_10"
+              android:paddingTop="@dimen/spacing_5"
+              android:orientation="horizontal"
+              android:paddingBottom="@dimen/spacing_5"
+              android:background="@color/white"
+              android:gravity="center_vertical"
+              style="@style/HLinearHFill">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/img_head_portrait"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            fresco:actualImageScaleType="fitCenter"
+            fresco:fadeDuration="300"
+            fresco:roundAsCircle="true"
+            fresco:placeholderImage="@drawable/w"
+            />
+
+    <TextView style="@style/Wrap"
+              android:textSize="11sp"
+              android:textColor="@color/black_alpha"
+              android:layout_marginLeft="@dimen/spacing_10"
+              android:text="早就有这想法了，算我一个，啤酒包了！！！"/>
+</LinearLayout>

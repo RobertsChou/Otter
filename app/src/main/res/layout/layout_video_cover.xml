@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/VideoAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+    <ImageView
+            android:id="@+id/detailPic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="false"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/big_bg"/>
+
+    <ImageButton
+            android:id="@+id/pre_play_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#00000000"
+            android:contentDescription="@null"
+            android:src="@drawable/play_btn_style"
+            android:visibility="invisible"/>
+
+    <com.otter.otter.widget.GifMovieView
+            android:id="@+id/loading_gif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:gif="@drawable/big_loading"/>
+</RelativeLayout>
+

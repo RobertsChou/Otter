@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/VLinearFill"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false">
+    <com.otter.otter.widget.SuperListView
+            android:id="@+id/listView"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:background="@drawable/list_item_bg"
+            ></com.otter.otter.widget.SuperListView>
+
+
+</LinearLayout>

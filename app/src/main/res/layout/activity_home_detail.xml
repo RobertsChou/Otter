@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/VLinearFill">
+    <RelativeLayout style="@style/NavigationBar">
+
+        <com.otter.otter.widget.OBack
+                android:id="@+id/back"
+                style="@style/NavigationBackButton"/>
+
+        <TextView
+                style="@style/NavigationTitle"
+                android:text="@string/app_name"/>
+    </RelativeLayout>
+    <WebView
+            android:id="@+id/wv"
+            style="@style/Fill"/>
+</LinearLayout>

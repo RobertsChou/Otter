@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/white"
+              android:focusable="false"
+              android:layout_height="match_parent">
+    <LinearLayout
+            style="@style/HLinearHFill"
+            android:gravity="center_vertical"
+            android:padding="@dimen/spacing_10">
+        <TextView
+                android:id="@+id/creator"
+                style="@style/Wrap"
+                android:textColor="@color/black_alpha"
+                android:textSize="@dimen/txt_20"
+                android:text="@string/creator"
+                />
+        <TextView
+                android:id="@+id/nikcname"
+                style="@style/Wrap"
+                android:textColor="@color/black_alpha"
+                android:textSize="@dimen/txt_20"
+                android:text=" 219-白袍君"
+                />
+
+        <View style="@style/HItemFill"/>
+
+        <LinearLayout
+                android:id="@+id/like"
+                style="@style/Wrap"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+            <TextView
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    android:background="@drawable/like"
+                    />
+            <TextView
+                    android:id="@+id/like_count"
+                    style="@style/Wrap"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="@dimen/spacing_5"
+                    android:textSize="@dimen/txt_20"
+                    android:text="12"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/img_bg"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/w"
+            android:scaleType="centerCrop"
+            />
+    <TextView
+            android:id="@+id/title"
+            style="@style/Wrap"
+            android:paddingLeft="@dimen/spacing_10"
+            android:paddingRight="@dimen/spacing_10"
+            android:paddingTop="@dimen/spacing_15"
+            android:textSize="@dimen/txt_34"
+            android:textColor="@color/black"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="找十几个人在海边喝喝啤酒踢踢球"
+            />
+    <TextView
+            android:id="@+id/describe"
+            style="@style/Wrap"
+            android:textSize="@dimen/txt_24"
+            android:padding="@dimen/spacing_10"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:lineSpacingExtra="2dp"
+            android:textColor="@color/black_alpha"
+            android:text="有车的出车，会规划的赶紧规划，周末走起，......"
+            />
+
+    <View style="@style/HLineGap"
+          android:layout_marginLeft="@dimen/spacing_10"
+          android:layout_marginRight="@dimen/spacing_10"/>
+</LinearLayout>

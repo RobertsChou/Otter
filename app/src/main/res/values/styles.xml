@@ -1,0 +1,171 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:typeface">monospace</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Theme.Start" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/welcome</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Base Style -->
+    <style name="Wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Fill">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="HFill">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="VFill">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="VItemFill">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="HItemFill">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="VItemWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="HItemWrap">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="VLinearFill" parent="Fill">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="HLinearFill" parent="Fill">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="VLinearVFill" parent="VFill">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="HLinearVFill" parent="VFill">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="VLinearHFill" parent="HFill">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="HLinearHFill" parent="HFill">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="VLinearWrap" parent="Wrap">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="HLinearHItemFill" parent="HItemFill">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="HLinearVItemFill" parent="VItemFill">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="VLinearHItemFill" parent="HItemFill">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="VLinearVItemFill" parent="VItemFill">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="HLinearHItemWrap" parent="HItemWrap">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="HLinearVItemWrap" parent="VItemWrap">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="VLinearHItemWrap" parent="HItemWrap">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="VLinearVItemWrap" parent="VItemWrap">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Line -->
+    <style name="HLineGap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/line_e0</item>
+    </style>
+
+    <style name="VLineGap">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/line_e0</item>
+    </style>
+
+    <!-- Text -->
+    <style name="TextStyle" parent="Wrap">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="TextHFillStyle" parent="HFill">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+
+    <style name="Widget.GifMoviewView" parent="@android:style/Widget"></style>
+    <!--<style name="SettingItemStyle" parent="HLinearHFill">
+        <item name="android:layout_height">@dimen/item_height_40</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/spacing_15</item>
+        <item name="android:paddingRight">@dimen/spacing_15</item>
+    </style>
+-->
+
+
+</resources>
+
