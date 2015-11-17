@@ -2,7 +2,7 @@ package com.otter.otter.ui;
 
 import com.otter.otter.R;
 import com.otter.otter.ui.fragment.Fragment_CrowFunding;
-import com.otter.otter.utils.Utils;
+import com.otter.otterlibs.utils.Utils;
 
 import android.app.Activity;
 import android.media.MediaPlayer;

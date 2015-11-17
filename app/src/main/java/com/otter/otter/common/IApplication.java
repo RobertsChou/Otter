@@ -1,10 +1,11 @@
 package com.otter.otter.common;
 
+
 import com.facebook.drawee.backends.pipeline.Fresco;
-import com.otter.otter.utils.Utils;
-import com.otter.otter.utils.SharePreferencesUtils;
 
 import android.app.Application;
+import com.otter.otterlibs.utils.SharePreferencesUtils;
+import com.otter.otterlibs.utils.Utils;
 
 public class IApplication extends Application {
     private static IApplication mInstance;

@@ -2,9 +2,6 @@ package com.otter.otter.ui.fragment;
 
 import com.otter.otter.R;
 import com.otter.otter.controller.CrowFundingController;
-import com.otter.otter.ui.AboutUsActivity;
-import com.otter.otter.ui.LoginActivity;
-import com.otter.otter.utils.Utils;
 
 import android.app.Activity;
 import android.graphics.Color;

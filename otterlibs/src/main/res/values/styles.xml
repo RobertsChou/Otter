@@ -18,10 +18,7 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
-    <style name="Theme.Start" parent="android:Theme.Light.NoTitleBar">
-        <item name="android:windowBackground">@drawable/welcome</item>
-        <item name="android:windowNoTitle">true</item>
-    </style>
+
 
     <!-- Base Style -->
     <style name="Wrap">
@@ -128,35 +125,10 @@
         <item name="android:orientation">vertical</item>
     </style>
 
-    <!-- Line -->
-    <style name="HLineGap">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">1px</item>
-        <item name="android:background">@color/line_e0</item>
-    </style>
-
-    <style name="VLineGap">
-        <item name="android:layout_width">1px</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:background">@color/line_e0</item>
-    </style>
-
-    <!-- Text -->
-    <style name="TextStyle" parent="Wrap">
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:gravity">center</item>
-        <item name="android:padding">5dp</item>
-    </style>
-
-    <style name="TextHFillStyle" parent="HFill">
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:padding">5dp</item>
-    </style>
 
 
-    <style name="Widget.GifMoviewView" parent="@android:style/Widget"></style>
+
+
     <!--<style name="SettingItemStyle" parent="HLinearHFill">
         <item name="android:layout_height">@dimen/item_height_40</item>
         <item name="android:background">@color/white</item>

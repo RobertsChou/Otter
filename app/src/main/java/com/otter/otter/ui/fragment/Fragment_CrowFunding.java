@@ -16,9 +16,7 @@ import android.widget.ScrollView;
 import android.widget.Toast;
 
 import com.otter.otter.controller.CrowFundingController;
-import com.otter.otter.ui.AboutUsActivity;
-import com.otter.otter.ui.LoginActivity;
-import com.otter.otter.utils.Utils;
+
 
 /**
  *

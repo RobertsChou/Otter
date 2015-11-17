@@ -2,12 +2,12 @@ package com.otter.otter.controller;
 
 import com.otter.otter.R;
 import com.otter.otter.ui.CrowFundingDetailActivity;
-import com.otter.otter.utils.Utils;
 import com.otter.otter.widget.SuperListView;
 
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
+import com.otter.otterlibs.utils.Utils;
 
 /**
  * Created by Wilbur on 15/10/5.

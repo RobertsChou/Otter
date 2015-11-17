@@ -5,7 +5,7 @@ import com.otter.otter.ui.fragment.Fragment_CrowFunding;
 import com.otter.otter.ui.fragment.Fragment_Discover;
 import com.otter.otter.ui.fragment.Fragment_Friends;
 import com.otter.otter.ui.fragment.Fragment_Profile;
-import com.otter.otter.utils.Utils;
+import com.otter.otterlibs.utils.Utils;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

@@ -4,8 +4,7 @@ import com.nineoldandroids.animation.Animator;
 import com.nineoldandroids.animation.ObjectAnimator;
 import com.nineoldandroids.animation.PropertyValuesHolder;
 import com.otter.otter.R;
-import com.otter.otter.ui.fragment.Fragment_CrowFunding;
-import com.otter.otter.utils.Utils;
+import com.otter.otterlibs.utils.Utils;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
